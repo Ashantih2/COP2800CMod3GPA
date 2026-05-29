@@ -10,11 +10,11 @@ public class PalmerPenguinsM3 {
     static final String SP_GENTOO = "Gentoo";
     static final String SP_ADELIE = "Adelie";
     
-    static final int TOTAL_SPECIES =3;
+    static final int TOTAL_SPECIES = 3;
     
-    static final int NUM_CHINSTRAP=68;
-    static final int NUM_GENTOO=123;
-    static final int NUM_ADELIE=151;
+    static final int NUM_CHINSTRAP = 68;
+    static final int NUM_GENTOO = 123;
+    static final int NUM_ADELIE = 151;
 
 
     public static void main(String[] args) {
