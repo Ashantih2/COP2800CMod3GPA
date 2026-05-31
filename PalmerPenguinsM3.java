@@ -21,7 +21,7 @@ public class PalmerPenguinsM3 {
     
         int totalPenguins= NUM_CHINSTRAP + NUM_GENTOO + NUM_ADELIE;
     
-    // output the species names with intro text
+        // output the species names with intro text 
         System.out.println("Introducing the Palmer Penguins: ");
         System.out.println("\t" + SP_CHINSTRAP + "!");
         System.out.println("\t" + SP_GENTOO + "!");
@@ -29,7 +29,7 @@ public class PalmerPenguinsM3 {
         System.out.println("\t" + SP_ADELIE + "!");
         
         System.out.println("There are a total of " + TOTAL_SPECIES +
-                       " penguins species in this dataset.");
+                        " penguins species in this dataset.");
         System.out.println("There are a total of " + totalPenguins + 
                        " penguins in this dataset.");
   
@@ -43,20 +43,20 @@ public class PalmerPenguinsM3 {
         
         if (NUM_CHINSTRAP > NUM_GENTOO && NUM_CHINSTRAP > NUM_ADELIE) {
             System.out.println(SP_CHINSTRAP + 
-            " penguins are the most populous.");
+                   " penguins are the most populous.");
         }
         
         else if (NUM_GENTOO > NUM_CHINSTRAP && NUM_GENTOO > NUM_ADELIE) {
             System.out.println(SP_GENTOO + 
-            " penguins are the most populous.");
+                " penguins are the most populous.");
         }
         else if (NUM_ADELIE > NUM_CHINSTRAP && NUM_ADELIE > NUM_GENTOO) {
             System.out.println(SP_ADELIE + 
-            " penguins are the most populous.");
+                " penguins are the most populous.");
         }
         else {
              System.out.println
-             ("There is a tie between species for the most populous.");
+                 ("There is a tie between species for the most populous.");
          }
          System.out.println();
          
@@ -67,20 +67,20 @@ public class PalmerPenguinsM3 {
          switch (chosenSpecies) {
              case SP_CHINSTRAP:
                  System.out.printf("%s: %d (%.2f%%)\n", SP_CHINSTRAP,
-                 NUM_CHINSTRAP,
-                 ((double) NUM_CHINSTRAP / totalPenguins * 100));
+                     NUM_CHINSTRAP,
+                     ((double) NUM_CHINSTRAP / totalPenguins * 100));
                  break;
                  
              case SP_GENTOO:
                  System.out.printf("%s: %d (%.2f%%)\n", SP_GENTOO,
-                 NUM_GENTOO,
-                 ((double) NUM_GENTOO / totalPenguins * 100));
+                     NUM_GENTOO,
+                     ((double) NUM_GENTOO / totalPenguins * 100));
                  break;
                  
              case SP_ADELIE:
                  System.out.printf("%s: %d (%.2f%%)\n", SP_ADELIE,
-                 NUM_ADELIE,
-                 ((double) NUM_ADELIE / totalPenguins * 100));
+                     NUM_ADELIE,
+                     ((double) NUM_ADELIE / totalPenguins * 100));
                  break;
                  
              default:
