@@ -33,9 +33,12 @@ public class PalmerPenguinsM3 {
         System.out.println("There are a total of " + totalPenguins + 
                        " penguins in this dataset.");
   
-        System.out.printf("%s:%d(%.2f%%)\n", SP_CHINSTRAP, NUM_CHINSTRAP, ((double) NUM_CHINSTRAP / totalPenguins * 100));
-        System.out.printf("%s:%d(%.2f%%)\n", SP_GENTOO, NUM_GENTOO, ((double) NUM_GENTOO / totalPenguins * 100));
-        System.out.printf("%s:%d(%.2f%%)\n", SP_ADELIE, NUM_ADELIE, ((double) NUM_ADELIE / totalPenguins * 100));
+        System.out.printf("%s:%d(%.2f%%)\n", SP_CHINSTRAP, NUM_CHINSTRAP,
+                          ((double) NUM_CHINSTRAP / totalPenguins * 100));
+        System.out.printf("%s:%d(%.2f%%)\n", SP_GENTOO, NUM_GENTOO, 
+                          ((double) NUM_GENTOO / totalPenguins * 100));
+        System.out.printf("%s:%d(%.2f%%)\n", SP_ADELIE, NUM_ADELIE, 
+                          ((double) NUM_ADELIE / totalPenguins * 100));
         System.out.println();
         
         //Adding if-else comparisons//
